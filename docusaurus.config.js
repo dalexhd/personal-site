@@ -13,8 +13,18 @@ module.exports = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   i18n: {
-    defaultLocale: 'es',
-    locales: ['es', 'en'],
+    defaultLocale: 'en',
+    locales: ['en', 'es'],
+    localeConfigs: {
+      es: {
+        label: "Español",
+        direction: "ltr"
+      },
+      en: {
+        label: "English",
+        direction: "ltr"
+      }
+    }
   },
   themeConfig: {
     navbar: {
@@ -30,7 +40,7 @@ module.exports = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        { to: '/blog', label: 'Blog', position: 'left' },
         {
           type: 'localeDropdown',
           position: 'right',
