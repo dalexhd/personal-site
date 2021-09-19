@@ -4,10 +4,22 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
+  align-items: center;
+  color: var(--ifm-hero-text-color);
+  display: flex;
+  padding: 4rem 2rem;
+  height: 100vh;
   position: relative;
   overflow: hidden;
+}
+
+.heroHeader {
+  height: 100%;
+  object-fit: cover;
+  transform: translateY(60px);
+  position: absolute;
+  top: 0px;
+  right: 0;
 }
 
 @media screen and (max-width: 966px) {
