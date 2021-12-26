@@ -1,0 +1,23 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.aboutMe {
+  align-items: center;
+  color: var(--ifm-hero-text-color);
+  display: flex;
+  padding: 2rem 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 75px;
+  height: 75px;
+  border: var(--ifm-hero-text-color) solid 2px;
+  border-radius: 50%;
+  border-style: dotted;
+  margin-top: 25px;
+}

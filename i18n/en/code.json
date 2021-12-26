@@ -173,5 +173,65 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "About me": {
+    "message": "About me"
+  },
+  "Hey 👋🏽, I'm Alejandro Borbolla, also known as DalexHD on my social platforms. Here is a brief introduction about me:": {
+    "message": "Hey 👋🏽, I'm Alejandro Borbolla, also known as DalexHD on my social platforms. Here is a brief introduction about me:"
+  },
+  "Bulgaria": {
+    "message": "Bulgaria"
+  },
+  "I was adopted from there at the age of 3.": {
+    "message": "I was adopted from there at the age of 3."
+  },
+  "Spain": {
+    "message": "Spain"
+  },
+  "Currently I live in Madrid.": {
+    "message": "Currently I live in Madrid."
+  },
+  "I'm": {
+    "message": "I'm"
+  },
+  "Full Stack Developer": {
+    "message": "Full Stack Developer"
+  },
+  "Working fulltime at": {
+    "message": "Working fulltime at"
+  },
+  "Computer Science": {
+    "message": "Computer Science"
+  },
+  "Studying at": {
+    "message": "Studying at"
+  },
+  "42 school": {
+    "message": "42 school"
+  },
+  "Wellcome to\nmy personal\nblog.": {
+    "message": "Wellcome to\nmy personal\nblog."
+  },
+  "Wellcome to\nmy personal\nwebsite.": {
+    "message": "Wellcome to\nmy personal\nwebsite."
+  },
+  "Country of birth": {
+    "message": "Country of birth"
+  },
+  "Where do I live?": {
+    "message": "Where do I live?"
+  },
+  "Date of birth": {
+    "message": "Date of birth"
+  },
+  "Job": {
+    "message": "Job"
+  },
+  "Studying": {
+    "message": "Studying"
+  },
+  "Social Media": {
+    "message": "Social Media"
   }
 }

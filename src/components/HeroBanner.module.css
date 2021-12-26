@@ -1,0 +1,66 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  align-items: center;
+  color: var(--ifm-hero-text-color);
+  display: flex;
+  padding: 2rem 2rem;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes headerAnimation {
+  from {
+    right: -100px;
+    filter: blur(7px);
+  }
+  to {
+    right: 0;
+    filter: blur(0px);
+  }
+}
+
+.heroHeader {
+  /* The image used */
+  background-image: url("/img/header.png");
+
+  /* Add the blur effect */
+  animation: headerAnimation 1s;
+  /* Full height */
+  height: 100%;
+  width: 1000px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: fixed;
+  top: 0;
+  right: 0px;
+}
+
+.heroTitle {
+  z-index: 1;
+}
+
+@keyframes typeAnimation {
+  from {
+    left: -100px;
+  }
+  to {
+    left: 0;
+  }
+}
+
+.typical {
+  animation: typeAnimation 1s;
+  position: relative;
+  white-space: pre-line;
+  line-height: 1.2;
+  z-index: 1;
+}

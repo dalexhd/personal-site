@@ -2,21 +2,3 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
-
-.heroBanner {
-  align-items: center;
-  color: var(--ifm-hero-text-color);
-  display: flex;
-  padding: 4rem 2rem;
-  height: 100vh;
-  position: relative;
-  overflow: hidden;
-}
-
-.heroHeader {
-  height: 100%;
-  object-fit: cover;
-  position: absolute;
-  top: 0px;
-  right: 0;
-}
