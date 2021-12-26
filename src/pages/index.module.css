@@ -16,20 +16,7 @@
 .heroHeader {
   height: 100%;
   object-fit: cover;
-  transform: translateY(60px);
   position: absolute;
   top: 0px;
   right: 0;
-}
-
-@media screen and (max-width: 966px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
